@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header><h1>Register</h1></header>
+<form id="ghost" >
+
+    <fieldset>
+        <label for ='first_name'> First Name</label>
+        <input name = "form_data" type="text" id="first_name" required>
+        <label for ='last_name'> Last Name</label>
+        <input name="other_data" type="text" id = 'last_name' required>
+    </fieldset>
+
+    <fieldset>
+
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+
+    </fieldset>
+
+    <fieldset>
+
+        <label for  = "user_email"> Email </label>
+        <input type="email" name="email-address" id = user_email>
+        <label for  = "user_pass"> Password </label>
+        <input type="text" name="password" id = user_pass>
+
+    </fieldset>
+
+    <fieldset>
+        <label for  = "birth_day"> Birthday </label>
+        <input name ="date" type="date" id ="birth_day">
+
+    </fieldset>
+
+    <fieldset>
+        I agree to the terms and conditions <input type="checkbox" name="day" value="agree" checked required>
+
+    </fieldset>
+
+    <fieldset>
+
+        <button>Submit</button>
+    </fieldset>
+
+
+
+</form>
+</body>
+</html>
